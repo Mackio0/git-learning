@@ -2,6 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import MkkOne from "./pages/MkkOne";
 import MkkTwo from "./pages/MkkTwo";
 import Layout from "./components/Layout";
+import TakeOne from "./pages/TakeOne";
+import TakeTwo from "./pages/TakeTwo";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
       {
         path: "/mkk-two",
         element: <MkkTwo />,
+      },
+      {
+        path: "/take-one",
+        element: <TakeOne />,
+      },
+      {
+        path: "/take-two",
+        element: <TakeTwo />,
       },
     ],
   },
