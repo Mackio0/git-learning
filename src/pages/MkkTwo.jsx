@@ -2,7 +2,9 @@
 
 const MkkTwo = () => {
   return (
-    <div>MkkTwo</div>
+    <div>MkkTwo
+      Take second
+    </div>
   )
 }
 

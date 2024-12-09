@@ -1,7 +1,9 @@
 
 const NotFoundPage = () => {
   return (
-    <div>NotFoundPage</div>
+    <div>NotFoundPage
+      Take second
+    </div>
   )
 }
 
