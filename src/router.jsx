@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import MkkOne from "./pages/MkkOne";
 import MkkTwo from "./pages/MkkTwo";
+import Layout from "./components/Layout";
 import TakeOne from "./pages/TakeOne";
 import TakeTwo from "./pages/TakeTwo";
 
@@ -8,7 +9,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
-    errorElement: <NotFoundPage />,
+    // errorElement: <NotFoundPage />,
     children: [
       {
         path: "/mkk-one",
