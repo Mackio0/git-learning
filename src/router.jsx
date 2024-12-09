@@ -5,7 +5,6 @@ import Layout from "./components/Layout";
 import TakeOne from "./pages/TakeOne";
 import TakeTwo from "./pages/TakeTwo";
 import LoginPage from "./pages/LoginPage";
-import Layout from "./components/Layout";
 import NotFoundPage from "./pages/NotFoundPage";
 
 const router = createBrowserRouter([
